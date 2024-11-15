@@ -1,0 +1,15 @@
+[package]
+name = "NFT_Auction_House"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0xb691770ab55a62dcba0c610b706558215a05ded182b8d95ef2e62fa09a1b94de'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
